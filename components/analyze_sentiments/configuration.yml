@@ -2,5 +2,7 @@ description: 'This component receives the list of dictionaries from FetchLastTwe
   uses the TextBlob library to analyze the sentiment and appends the sentiment to
   each dictionary with the format {''handle'': handle, ''tweet'': last_tweet, ''sentiment'':
   sentiment_score}.'
+input-class: AnalyzeSentimentsInputDict
 name: AnalyzeSentiments
+output-class: AnalyzeSentimentsOutputDict
 parameters: {}
