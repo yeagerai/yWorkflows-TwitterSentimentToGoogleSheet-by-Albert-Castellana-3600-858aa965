@@ -1,5 +1,7 @@
 description: This component retrieves the sentiment analysis of tweets from specified
   Twitter handles, using given Twitter credentials, and stores the result in a newly
   created Google Sheet which URL is provided as output.
+input-class: TwitterHandlesIn
 name: TwitterSentimentToGoogleSheet
+output-class: GoogleSheetURLOut
 parameters: {}
