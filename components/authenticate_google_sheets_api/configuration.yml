@@ -1,7 +1,9 @@
 description: This component authenticates with the Google Sheets API using the Google
   API Python client and the provided service account credentials (preferably supplied
   as an environment variable or a JSON file). Returns the authenticated service object.
+input-class: AuthenticateGoogleSheetsAPIInputDict
 name: AuthenticateGoogleSheetsAPI
+output-class: AuthenticateGoogleSheetsAPIOutputDict
 parameters:
   api_version: v4
   scope: https://www.googleapis.com/auth/spreadsheets
