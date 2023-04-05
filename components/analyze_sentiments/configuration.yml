@@ -1,0 +1,6 @@
+description: 'This component receives the list of dictionaries from FetchLastTweets,
+  uses the TextBlob library to analyze the sentiment and appends the sentiment to
+  each dictionary with the format {''handle'': handle, ''tweet'': last_tweet, ''sentiment'':
+  sentiment_score}.'
+name: AnalyzeSentiments
+parameters: {}
